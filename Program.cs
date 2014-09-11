@@ -20,10 +20,10 @@ namespace _1_2_rita_med_asterisker_a
                 {
                     switch (rowNumber % 3)
                     {
-                        case 1:
+                        case 0:
                             Console.ForegroundColor = ConsoleColor.Yellow;
                             break;
-                        case 2:
+                        case 1:
                             Console.ForegroundColor = ConsoleColor.Magenta;
                             break;
                         default :
