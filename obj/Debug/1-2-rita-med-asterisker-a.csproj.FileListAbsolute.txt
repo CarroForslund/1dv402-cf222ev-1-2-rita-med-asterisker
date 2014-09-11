@@ -1,1 +1,6 @@
 P:\inledande-programmering-med-csharp\1-2-rita-med-asterisker-a\bin\Debug\1-2-rita-med-asterisker-a.exe.config
+P:\inledande-programmering-med-csharp\1-2-rita-med-asterisker-a\bin\Debug\1-2-rita-med-asterisker-a.exe
+P:\inledande-programmering-med-csharp\1-2-rita-med-asterisker-a\bin\Debug\1-2-rita-med-asterisker-a.pdb
+P:\inledande-programmering-med-csharp\1-2-rita-med-asterisker-a\obj\Debug\1-2-rita-med-asterisker-a.csprojResolveAssemblyReference.cache
+P:\inledande-programmering-med-csharp\1-2-rita-med-asterisker-a\obj\Debug\1-2-rita-med-asterisker-a.exe
+P:\inledande-programmering-med-csharp\1-2-rita-med-asterisker-a\obj\Debug\1-2-rita-med-asterisker-a.pdb
