@@ -14,26 +14,26 @@ namespace _1_2_rita_med_asterisker_a
             // 39 kolumner och 25 rader
             // Varannan rad börjar med ett indrag
             // Var tredje rad är grön, magenta respektive gul
-            for (int rowNumber = 0; rowNumber < 25; rowNumber++) 
+            for (int rowNumber = 0; rowNumber < 25; rowNumber++)
             {
+                switch (rowNumber % 3)
+                {
+                    case 0:
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                        break;
+                    case 1:
+                        Console.ForegroundColor = ConsoleColor.Magenta;
+                        break;
+                    default:
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        break;
+                }
                 for (int columnNumber = 0; columnNumber < 39; columnNumber++)
                 {
-                    switch (rowNumber % 3)
-                    {
-                        case 0:
-                            Console.ForegroundColor = ConsoleColor.Yellow;
-                            break;
-                        case 1:
-                            Console.ForegroundColor = ConsoleColor.Magenta;
-                            break;
-                        default :
-                            Console.ForegroundColor = ConsoleColor.Green;
-                            break;
-                    }
                     Console.Write("* ");
                 }
                 Console.WriteLine();
-                if (rowNumber % 2 == 0) // för jämna tal
+                if (rowNumber % 2 == 0) // räknar ut om det är ett jämnt radnummer
                 {
                     Console.Write(" ");
                 }
